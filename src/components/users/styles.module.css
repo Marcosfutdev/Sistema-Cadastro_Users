@@ -1,0 +1,22 @@
+.componentuser {
+    height: auto;
+    padding: 20px;
+}
+
+#contentUsers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#contentUsers > p {
+    margin-top: 2px;
+    font-weight: bold;
+}
+
+.users {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

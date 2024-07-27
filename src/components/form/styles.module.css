@@ -1,0 +1,36 @@
+.formCadastro {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 20px;
+    background-color:  #f6f6f6;   
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.formCadastro > label {
+    font-size: 19px;
+    font-weight: bold;
+}
+.formCadastro > input {
+    padding: 8px;
+    width: 550px;
+    font-size: 20px;
+}
+
+.formCadastro > input:hover {
+    border: 2px solid blue;
+}
+
+.formCadastro > button {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+
+.formCadastro > .select > select {
+    width: 550px;
+    margin-top: 10px;
+}

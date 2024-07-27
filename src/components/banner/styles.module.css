@@ -1,0 +1,24 @@
+#banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(69, 69, 69);
+    padding-bottom: 20px;
+}
+#content_banner {
+    /**/
+    
+}
+#logo_people {
+    margin-top: 20px;
+    height: 700px;
+    background-color: white;
+    padding: 5px;
+}
+#text_banner {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+
