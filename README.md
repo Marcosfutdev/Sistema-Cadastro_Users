@@ -28,7 +28,7 @@ Como executar o back-end:
   -Para conectar a API com o banco de dados, vá em src/database, dentro do arquivo "connect.js", no trecho do código "await mongoose.connect("coloque a o trecho que o MONGODB disponibiliza para
   você se conectar com o banco!"); Exemplo: "mongodb+srv://${process.env.MONGODB_USER}:${process.env.MONGODB_PASSWORD}@users.560rfik.mongodb.net/?retryWrites=true&w=majority&appName=users";
   Coloque o seu e coloque as variáveis de ambiente como está aí no exemplo! Se baseie neste exemplo! Apenas na parte das váriaveis de ambiente!
-  - Dentro da raiz da pasta "api" você vai criar um arquivo chamado ".env", onde dentro dele você vai criar variáveis de ambiente, chamadas:
+- Dentro da raiz da pasta "api" você vai criar um arquivo chamado ".env", onde dentro dele você vai criar variáveis de ambiente, chamadas:
     MONGODB_USER=nome do seu usuário do banco
     MONGODB_PASSWORD=sua senha do banco
   Dessa mesma forma que está, só coloque seu usuário e senha.
